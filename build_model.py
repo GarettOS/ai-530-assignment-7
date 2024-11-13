@@ -20,7 +20,7 @@ def build_model(memory, prediction_window):
     word_sequences = []
     prediction_word_sequences = []
     # Loop through each word to find the sequences of that word
-    for i in range(len(filtered_words) - prediction_window):
+    for i in range(len(filtered_words) - memory - prediction_window + 1):
         # Find the sequences of length memory
         word_sequences.append(filtered_words[i:i + memory])
         # Find the word sequence of length prediction_window that follows it 
@@ -42,19 +42,40 @@ def build_model(memory, prediction_window):
 
     freq_dict = {}
     for i in range(len(word_sequences)):
+        word_tuple = tuple(word_sequences[i])
+        pred_tuple = tuple(prediction_word_sequences[i])
+
         # Check if sequence currently exists in freq dict
-        if tuple(word_sequences[i]) not in freq_dict:
-            freq_dict[tuple(word_sequences[i])] = {} # Initialize a dict for the predictions and their couns
+        if word_tuple not in freq_dict:
+            freq_dict[word_tuple] = {} # Initialize a dict for the predictions and their couns
 
         # Check if the prediction that follows the sequence is in the dict
-        if tuple(prediction_word_sequences[i]) not in freq_dict[tuple(word_sequences[i])]:
-            freq_dict[tuple(word_sequences[i])][tuple(prediction_word_sequences[i])] = 0 # initalize the count to 0 if our first time seeing this prediction
+        if pred_tuple not in freq_dict[word_tuple]:
+            freq_dict[word_tuple][pred_tuple] = 0 # initalize the count to 0 if our first time seeing this prediction
         
         # Increment the freq of the prediction sequence following this word sequence
-        freq_dict[tuple(word_sequences[i])][tuple(prediction_word_sequences[i])] += 1
+        freq_dict[word_tuple][pred_tuple] += 1
         
-    
+    # Make a dictionary for the probabiltiies instead of the counts
+    probability_dict = {}
+    # Keep track of the total # of pairs of words in the text
+    for sequence in freq_dict:
+        prediction_seq_count = sum(freq_dict[sequence].values())  # Total count for the sequence
+        probability_dict[sequence] = {}
+        for pred_seq in freq_dict[sequence]:
+            # Calculate probability of the pred sequence for the word sequence
+            probability_dict[sequence][pred_seq] = freq_dict[sequence][pred_seq] / prediction_seq_count
 
-    return
+    # Write to output file model.txt
+    with open('model.txt', 'w') as file:
+        for sequence in probability_dict:
+            # Write the new sequence
+            file.write(f"+{' '.join(sequence)}\n")
+            for pred in probability_dict[sequence]:
+                if pred:
+                    # Write each prediction sequence for this sequence and its probability
+                    file.write(f"{' '.join(pred)} {probability_dict[sequence][pred]:.2f}\n")
 
-build_model(1, 1)
+    print("Model successfully built and written to model.txt")
+
+build_model(3, 1)
