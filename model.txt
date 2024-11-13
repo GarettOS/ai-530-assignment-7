@@ -1,242 +1,203 @@
-+ethics of aristotle
-is 1.00
-+of aristotle is
-one 1.00
-+aristotle is one
-half 1.00
-+is one half
-of 1.00
-+one half of
-single 1.00
-+half of single
++ethics
+of 0.33
+is 0.33
+points 0.33
++of
+aristotle 0.11
+single 0.11
+which 0.11
+humanconduct 0.11
+all 0.11
+thistreatise 0.11
+ethics 0.11
+treatise 0.11
+enquiry 0.11
++aristotle
+is 0.50
+calls 0.50
++is
+one 0.17
+other 0.17
+what 0.17
+of 0.17
+anintroduction 0.17
+not 0.17
++one
+half 0.33
+and 0.33
+place 0.33
++half
+of 0.50
+both 0.50
++single
 treatise 1.00
-+of single treatise
-of 1.00
-+single treatise of
-which 1.00
-+treatise of which
-hispolitics 1.00
-+of which hispolitics
++treatise
+of 0.33
+order 0.33
+is 0.33
++which
+hispolitics 0.33
+isnot 0.33
+in 0.33
++hispolitics
 is 1.00
-+which hispolitics is
-other 1.00
-+hispolitics is other
++other
 half 1.00
-+is other half
-both 1.00
-+other half both
++both
 deal 1.00
-+half both deal
++deal
 with 1.00
-+both deal with
++with
 one 1.00
-+deal with one
-and 1.00
-+with one and
-same 1.00
-+one and same
++and
+same 0.50
+self-contained 0.50
++same
 subjectthis 1.00
-+and same subjectthis
++subjectthis
 subject 1.00
-+same subjectthis subject
-is 1.00
-+subjectthis subject is
-what 1.00
-+subject is what
++subject
+is 0.50
+not 0.50
++what
 aristotle 1.00
-+is what aristotle
-calls 1.00
-+what aristotle calls
++calls
 in 1.00
-+aristotle calls in
-one 1.00
-+calls in one
-place 1.00
-+in one place
++in
+one 0.25
+thetwo 0.25
+literary 0.25
+actual 0.25
++place
 philosophy 1.00
-+one place philosophy
++philosophy
 ofhuman 1.00
-+place philosophy ofhuman
++ofhuman
 affairs 1.00
-+philosophy ofhuman affairs
++affairs
 but 1.00
-+ofhuman affairs but
-more 1.00
-+affairs but more
++but
+more 0.50
+in 0.50
++more
 frequently 1.00
-+but more frequently
++frequently
 political 1.00
-+more frequently political
++political
 or 1.00
-+frequently political or
-social 1.00
-+political or social
++or
+social 0.33
+practical 0.33
+truth 0.33
++social
 science 1.00
-+or social science
++science
 in 1.00
-+social science in
-thetwo 1.00
-+science in thetwo
++thetwo
 works 1.00
-+in thetwo works
++works
 taken 1.00
-+thetwo works taken
++taken
 together 1.00
-+works taken together
++together
 we 1.00
-+taken together we
++we
 have 1.00
-+together we have
++have
 their 1.00
-+we have their
++their
 author’s 1.00
-+have their author’s
++author’s
 whole 1.00
-+their author’s whole
-theory 1.00
-+author’s whole theory
++whole
+theory 0.50
+subject 0.50
++theory
 of 1.00
-+whole theory of
-humanconduct 1.00
-+theory of humanconduct
++humanconduct
 or 1.00
-+of humanconduct or
-practical 1.00
-+humanconduct or practical
++practical
 activity 1.00
-+or practical activity
-is 1.00
-+practical activity is
-of 1.00
-+activity is of
-all 1.00
-+is of all
++activity
+is 0.50
+which 0.50
++all
 human 1.00
-+of all human
++human
 activity 1.00
-+all human activity
-which 1.00
-+human activity which
-isnot 1.00
-+activity which isnot
++isnot
 directed 1.00
-+which isnot directed
++directed
 merely 1.00
-+isnot directed merely
++merely
 to 1.00
-+directed merely to
-knowledge 1.00
-+merely to knowledge
++to
+knowledge 0.17
+ethics 0.17
+whole 0.17
+first 0.17
+politics 0.17
+bepursued 0.17
++knowledge
 or 1.00
-+to knowledge or
-truth 1.00
-+knowledge or truth
++truth
 two 1.00
-+or truth two
++two
 parts 1.00
-+truth two parts
++parts
 of 1.00
-+two parts of
-thistreatise 1.00
-+parts of thistreatise
++thistreatise
 are 1.00
-+of thistreatise are
++are
 mutually 1.00
-+thistreatise are mutually
++mutually
 complementary 1.00
-+are mutually complementary
++complementary
 but 1.00
-+mutually complementary but
-in 1.00
-+complementary but in
-literary 1.00
-+but in literary
++literary
 sense 1.00
-+in literary sense
++sense
 each 1.00
-+literary sense each
++each
 isindependent 1.00
-+sense each isindependent
++isindependent
 and 1.00
-+each isindependent and
-self-contained 1.00
-+isindependent and self-contained
++self-contained
 proem 1.00
-+and self-contained proem
++proem
 to 1.00
-+self-contained proem to
-ethics 1.00
-+proem to ethics
-is 1.00
-+to ethics is
-anintroduction 1.00
-+ethics is anintroduction
++anintroduction
 to 1.00
-+is anintroduction to
-whole 1.00
-+anintroduction to whole
-subject 1.00
-+to whole subject
-not 1.00
-+whole subject not
-merely 1.00
-+subject not merely
-to 1.00
-+not merely to
-first 1.00
-+merely to first
++not
+merely 0.50
+adhered 0.50
++first
 part 1.00
-+to first part
-thelast 1.00
-+first part thelast
++part
+thelast 0.50
+of 0.50
++thelast
 chapter 1.00
-+part thelast chapter
++chapter
 of 1.00
-+thelast chapter of
-ethics 1.00
-+chapter of ethics
-points 1.00
-+of ethics points
++points
 forward 1.00
-+ethics points forward
++forward
 to 1.00
-+points forward to
-politics 1.00
-+forward to politics
++politics
 andsketches 1.00
-+to politics andsketches
++andsketches
 for 1.00
-+politics andsketches for
++for
 part 1.00
-+andsketches for part
-of 1.00
-+for part of
-treatise 1.00
-+part of treatise
-order 1.00
-+of treatise order
-of 1.00
-+treatise order of
-enquiry 1.00
-+order of enquiry
++order
+of 0.50
+which 0.50
++enquiry
 to 1.00
-+of enquiry to
-bepursued 1.00
-+enquiry to bepursued
++bepursued
 order 1.00
-+to bepursued order
-which 1.00
-+bepursued order which
-in 1.00
-+order which in
-actual 1.00
-+which in actual
++actual
 treatise 1.00
-+in actual treatise
-is 1.00
-+actual treatise is
-not 1.00
-+treatise is not
-adhered 1.00
-+is not adhered
++adhered
 to 1.00

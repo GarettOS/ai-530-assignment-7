@@ -1,4 +1,5 @@
 def build_model(memory, prediction_window):
+    print("Building Model...")
     # Read english text from input.txt
     with open("input.txt", "r") as file:
         content = file.read()
@@ -76,6 +77,4 @@ def build_model(memory, prediction_window):
                     # Write each prediction sequence for this sequence and its probability
                     file.write(f"{' '.join(pred)} {probability_dict[sequence][pred]:.2f}\n")
 
-    print("Model successfully built and written to model.txt")
-
-build_model(3, 1)
+    print("Model Built Succesfully! -- Written to model.txt\n")
